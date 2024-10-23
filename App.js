@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
-import KanbanBoard from './components/KanbanBoard';
+
 function App() {
   const [tickets, setTickets] = useState([]);
   const [groupBy, setGroupBy] = useState("status");
